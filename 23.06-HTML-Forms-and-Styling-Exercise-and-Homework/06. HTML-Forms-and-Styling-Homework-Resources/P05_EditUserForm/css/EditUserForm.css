@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+
+body{font-size: 16px;
+font-family: Roboto, Helvetica, sans-serif;
+background-color:  #EEEEEE;
+width: 1000px;
+margin-top: 30px;}
+
+header {
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid white;
+    background: white;
+    padding: 30px;
+     box-shadow: inset  10px 10px  #000000;
+}
+
+h1{    text-align: left;
+    color: #324E5B;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;}
+
+main{padding-top: 20px;
+margin: 0 auto;
+    width: 800px; }    
+
+form, span, input{display: block}    
+.first input{width: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset  4px 4px  #000000;}
+
+.radio input:first-child
+ {display: inline-block;
+ margin-right: 30px
+ }  
+.radio input:nth-child(2) {display: inline-block;
+ margin-right: 50px
+ } 
+
+.radio{height: 40px;
+    line-height: 40px;}  
+
+.afterButton{margin-top: 20px;}    
+.afterButton input{width: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset  4px 4px  #000000;}
+
+.group{margin-top: 20px;} 
+
+.checkbox{width: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset  4px 4px  #000000;
+    background-color: white;
+    display: block}   
+
+
+.checkbox .check1:after{content: "All groups"; margin-left: 30px; display: inline-block; width: 60px}
+.checkbox .check2:after{content: "Group 1";margin-left: 30px; display: inline-block; width: 60px}
+.checkbox .check3:after{content: "Group 2";margin-left: 30px; display: inline-block; width: 60px}
+.checkbox .check4:after{content: "Group 3";margin-left: 30px; display: inline-block; width: 60px}
+.checkbox .check5:after{content: "Group 4";margin-left: 30px; display: inline-block; width: 60px}
+
+.contacts{margin-top: 20px;
+margin-bottom: 20px}
+
+.buttons{margin-top:40px; 
+margin-bottom: 20px;
+width:600px;
+height: 200px}
+
+.buttons button:first-child {
+    width: 220px;
+    padding: 15px;
+    border: none;
+    color: red;
+    font-weight: bold;
+    margin-right: 20px;
+    background-color:#EEEEEE;
+    border-bottom: 3px solid red;
+    border-right: 3px solid red;} 
+.buttons button:nth-child(2) {
+    width: 220px;
+    padding: 15px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color:#EEEEEE;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;}
+
+    a{color:green}
+

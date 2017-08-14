@@ -1,0 +1,82 @@
+*{margin: 0;
+padding: 0}
+
+*{box-sizing: border-box}
+
+body{font-size: 13px;
+font-family: Tahoma, Helvetica, sans-serif;
+background-color:#EBEBEB }
+
+main{max-width: 800px;
+margin: 0 auto}
+
+ 
+h1 {font-size: 28px;
+    border: 1px solid #F1F1F1;
+    background: #F1F1F1;
+    color: #3DA6E6;
+    margin: 0 auto;
+    padding: 15px;}
+
+h3{padding: 10px 0 10px 0}
+
+.Basic-info{width: 800px;
+    height: 100px;
+    border-bottom-style: dotted;
+    border-color: #DADADA;}
+
+.header{display: block;
+float: left;
+width: 70%}
+
+.search{display: block;
+float: right;
+width: 20%;
+margin-top: 38px;
+margin-left: 4px;}
+
+
+
+.container{display: flex;
+flex-wrap:wrap;
+width: 800px;
+height: 160px;
+border-bottom-style: dotted;
+border-color: #DADADA;}
+
+.personal-details {   max-width: 250px;}
+
+.personal-details > input {margin-bottom: 15px;}
+
+.RoomReservation{
+    width: 550px;
+    display: inline-block}
+
+.check-in,
+.check-out{width:245px;
+display: inline-block;
+margin-top: 15px;}
+
+.check-in > input,
+.check-out>input{width:200px;}
+
+.in-out{display: inline-block;
+width: 500px}
+
+.Select-room,
+.numb-room{width:250px;
+display: inline-block;}
+
+.Select-room > select{width: 200px;}
+
+
+button{float: right;
+padding:5px 15px 5px 15px;
+border-radius: 10px;
+font-weight: bold;
+color: white;
+background-color:#3DA6E6;
+}
+button:hover{background-color: #3BBC96}
+
+footer{ margin-top: 20px}

@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0E1013;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 50px;
+
+}
+
+.container .ball:nth-child(1) {
+    background: red;
+    animation-name: ball-1;
+    animation-duration: 1.51s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.container .ball:nth-child(2) {
+    background: red;
+    animation-name: ball-2;
+    animation-duration: 1.52s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.container .ball:nth-child(3) {
+    background: red;
+    animation-name: ball-3;
+    animation-duration: 1.53s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.container .ball:nth-child(4) {
+    background: red;
+    animation-name: ball-4;
+    animation-duration: 1.54s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.container .ball:nth-child(5) {
+    background: red;
+    animation-name: ball-5;
+    animation-duration: 1.55s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.container .ball:nth-child(6) {
+    background: red;
+    animation-name: ball-6;
+    animation-duration: 1.56s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.container .ball:nth-child(7) {
+    background: red;
+    animation-name: ball-7;
+    animation-duration: 1.57s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes ball-1 {
+    0% {
+        background: #ff005d;
+        transform: translateX(0);
+    }
+    50% {
+        background: #ff005d;
+        transform: translateX(200px);
+    }
+    100% {
+        background: #ff005d;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes ball-2 {
+    0% {
+        background: #35ff99;
+        transform: translateX(0);
+    }
+    50% {
+        background: #35ff99;
+        transform: translateX(200px);
+    }
+    100% {
+        background: #35ff99;
+        transform: translateX(0);
+    }
+}
+
+@keyframes ball-3 {
+    0% {
+        background: #008597;
+        transform: translateX(0);
+    }
+    50% {
+        background: #008597;
+        transform: translateX(200px);
+    }
+    100% {
+        background: #008597;
+        transform: translateX(0);
+    }
+}
+
+@keyframes ball-4 {
+    0% {
+        background: #ffcc00;
+        transform: translateX(0);
+    }
+    50% {
+        background: #ffcc00;
+        transform: translateX(200px);
+    }
+    100% {
+        background: #ffcc00;
+        transform: translateX(0);
+    }
+}
+
+@keyframes ball-5 {
+    0% {
+        background: #2d3443;
+        transform: translateX(0);
+    }
+    50% {
+        background: #2d3443;
+        transform: translateX(200px);
+    }
+    100% {
+        background: #2d3443;
+        transform: translateX(0);
+    }
+}
+
+@keyframes ball-6 {
+    0% {
+        background: #ff7c35;
+        transform: translateX(0);
+    }
+    50% {
+        background: #ff7c35;
+        transform: translateX(200px);
+    }
+    100% {
+        background: #ff7c35;
+        transform: translateX(0);
+    }
+}
+
+@keyframes ball-7 {
+    0% {
+        background: #4d407c;
+        transform: translateX(0);
+    }
+    50% {
+        background: #4d407c;
+        transform: translateX(200px);
+    }
+    100% {
+        background: #4d407c;
+        transform: translateX(0);
+    }
+}

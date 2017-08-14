@@ -1,0 +1,33 @@
+body{background: url(cafe-home.jpg)no-repeat;
+background: cover;
+font-family:  'Times New Roman', Times, serif;
+color: white}
+
+h1{width: 70%;
+text-align: center;
+font-family: coffee serif;
+letter-spacing: 10px;
+font-size: 2.5rem}
+
+@font-face {
+  font-family: coffee;
+  src: url(font/getcoffee.ttf);
+}
+
+section{width: 70%;
+margin:auto;
+}
+
+article{width: 53%;
+text-align: justify;
+}
+
+aside{float: left;
+width: 240px;
+margin-right: 10px;
+font-size: 1rem;
+}
+
+aside ol li a {text-decoration: none;
+color:white;
+list-style: none}

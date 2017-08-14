@@ -1,0 +1,31 @@
+body{font-family: Lato, sans-serif;
+font-size:14px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans); Sans serif
+
+*{margin: 0;
+padding: 0}
+
+header {    background: url(header.jpg)no-repeat;
+        height: 100px;}
+
+header h1{    text-align: center;
+    color: white;
+    padding: 35px;}
+
+
+img{width: 300px;
+height: 200px}
+
+
+.content{
+display: inline-block}
+
+article{width: 400px;
+display:block}
+
+aside{width: 200px;
+display: block;
+float:right}
+

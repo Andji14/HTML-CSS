@@ -1,0 +1,53 @@
+@media all and (max-width: 640px) {
+
+    body {
+        margin: 0 40px 0 20px;
+        box-sizing: border-box;
+    }
+
+    #header-top-area h2, div#header-bottom-area {
+        display: none;
+    }
+
+    h1 {
+        width: 125px;
+    }
+
+    #header-middle-area {
+
+        text-align: left;
+        margin-top: 30px;
+        padding-left: 10px;
+
+    }
+
+    #product-menu {
+        display: block;
+        width: 100%;
+    }
+
+    #product-menu:hover ul li .submenu {
+        display: block;
+    }
+
+    .wrap {
+        width: 100%;
+        text-align: center;
+    }
+
+    li.box:nth-child(even) {
+        display: none;
+    }
+
+    #products-suggestions-list > div.wrap > ul > li:first-child {
+        display: none;
+    }
+
+    footer, .share, .copyright, element.style, .email-newsletter {
+
+        float: none;
+        height: auto;
+        text-align: center;
+    }
+
+}

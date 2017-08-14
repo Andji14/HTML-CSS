@@ -1,0 +1,18 @@
+@import url("https://semantic-ui.com/elements/icon.html#/definition");
+
+body{font-size: 16px;
+font-family: OpenSans-ExtraBold / Helvetica / sans-serif ;
+background-color:#F0F0E8 ;
+text-align: center;}
+
+
+h1 {color:#009288}
+
+atricle{width: 220px;
+height: 150px;
+display: inline-block;
+border: 1px solid #F0F0E8 ;}
+
+
+atricle:hover{background: #F6F6F5;
+border-left: 10px solid #009288}

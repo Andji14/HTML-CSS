@@ -1,0 +1,38 @@
+/** { box-sizing: border-box; }*/
+
+
+header,footer {
+background-color: #8B603D;
+color: white;
+padding: 15px;
+font-weight: bold;
+font-size:30px;
+border: 2px solid #4B4B4B; }
+
+.menu { width: 25%; }
+
+.content { width: 75%; }
+
+.float-left {
+  float: left;
+  padding: 15px; }
+
+.float-right { float: right; }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background: #33b5e5;
+  color: #ffffff; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; height: 0; }
+

@@ -1,0 +1,25 @@
+*{margin: 0; 
+padding: 0}
+
+.wrapper{margin: 0 auto;
+width: 1200px;
+font-family: 'Vollkorn', serif;
+    margin-top: 45px;} 
+
+h1{     margin-left: 150px;
+    margin-top: 30px;}
+
+h2,
+a{color: #72aeb4}
+
+.date{font-style: italic}
+
+img {
+    border: 1px solid #72aeb4;
+    width: 300px;
+    padding: 10px;
+}
+.content {
+    float: right;
+    width: 838px;
+}

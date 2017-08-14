@@ -1,0 +1,66 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body{font-size: 12px;
+font-family: Tahoma, Helvetica, sans-serif;
+width: 800px;
+margin: 0 auto}
+
+header{border-bottom: 1px solid silver;
+    margin-bottom: 15px;}
+
+h1{font-size: 24px}
+
+h1,
+p{text-align: center}
+
+main{display: flex}
+
+.NewAccount{width: 350}
+
+.NewAccount span{margin-top: 10px}
+
+.NewAccount > form{width: 250px}
+
+.first-form input{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+   }
+
+.first-form .input   {position: relative;
+    z-index: -1}  
+
+.fa-check
+ {position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 180px;
+    border: 1px solid #00FF00;
+    background: #00FF00;
+    color: white;
+    padding: 3px; }
+
+.fa-times {position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 180px;
+    border: 1px solid #FF0500;
+    background: #FF0500;
+    color: white;
+    padding: 4px;
+    } 
+
+.checkbox  {margin-top: 10px;
+    margin-bottom: 10px;} 
+
+button,
+login {margin-top: 10px;
+background-color: #AFDF67;
+color: black} 
+
+a:hover{color: red}   
+
+
+

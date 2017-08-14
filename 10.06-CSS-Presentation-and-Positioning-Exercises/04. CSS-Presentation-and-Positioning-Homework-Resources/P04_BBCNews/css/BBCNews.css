@@ -1,0 +1,18 @@
+.wrapper{ display: inline-block;
+width: 890px;
+margin: 0 auto;
+border:1px solid #a5b2b3;
+height: 478px;}
+
+article{width: 200px;
+height: 400px;
+display: inline-block;
+vertical-align: top;
+padding: 5px 8px;
+}
+
+a{text-decoration: none}
+
+img{width: 200px;}
+
+img:hover{opacity: 0.4}

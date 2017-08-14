@@ -1,0 +1,19 @@
+table{ border: 1px solid black;
+/*border-collapse:collapse;*/
+border-color: #c6c7cc;
+margin: 0 auto;
+padding: 5px 30px 5px 10px;
+}
+td {
+padding: 5px}
+
+
+table, th, td {
+    border: 1px solid;
+    border-color: #c6c7cc;
+}
+table {
+    border-collapse: collapse;
+}
+thead td {
+text-align: center;}

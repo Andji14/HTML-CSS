@@ -1,0 +1,67 @@
+*{margin: 0;
+padding: 0}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+body{ font-size: 16px;
+font-family: 'Lato', sans-serif;
+background-color: #24437C;
+color: white}
+
+
+nav{padding: 20px}
+
+nav ul li{display: inline-block;
+padding: 15px;
+float: right;
+}
+
+nav ul li a{text-decoration: none;
+text-transform: capitalize;
+color:#fff}
+
+h1{text-align: center;
+padding-top: 50px;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+
+.header-subtitle{text-align: center;
+text-transform: capitalize;
+margin-bottom: 20px;
+color: #3DC1EF}
+
+div a{ border:1px solid ;
+border-radius: 20px;
+background: #3DC1EF;
+width: 0 auto;
+text-align: center;
+margin: 200px 600px ;
+padding: 10px 15px;
+border-color:#3DC1EF}
+
+h2{margin-bottom: 20px}
+
+
+li.service {vertical-align: top;
+display: inline-block;
+margin: 10px 10px;
+width: 300px;
+height: 58px;
+padding:0 10px;
+margin-left: 100px
+ }
+
+article{padding: -1px;
+margin-top: 50px;}
+
+article:hover{background:#3DC1EF }
+
+.header-services{margin-top: 50px;}
+
+.service-link{color: white;
+text-decoration: none
+}
+
+.nav-item cta-btn:hover{background:#3DC1EF;
+border: 1px solid #3DC1EF; }

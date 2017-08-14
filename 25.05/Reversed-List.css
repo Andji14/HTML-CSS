@@ -1,0 +1,8 @@
+#wrapper{
+display:block;
+color: red;
+background: silver;
+border: 1.5px solid black;
+/*border-style: 1px solid black ;*/
+width : 300px;
+}

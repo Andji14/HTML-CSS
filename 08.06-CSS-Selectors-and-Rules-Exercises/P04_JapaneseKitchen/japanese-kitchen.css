@@ -1,0 +1,108 @@
+*{margin: 0;
+padding: 0}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+
+.content article:after {
+     content: '';
+     display: block;
+     clear: both;
+}
+body{ font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    background: url(images/dark-wood.jpg)}
+
+header{
+    margin: 0 auto;
+    background: url(images/header-page.jpg);
+    width: 773px;
+    padding: 64px}
+
+header h1{float: right;}
+
+nav{width: 900px ;
+margin: 0 auto;
+background-color: #A29F9A;}
+
+
+li  {display: inline-block;}
+
+ a{ color: #fff;
+ font-size: 20px;
+ text-decoration: none;
+ padding: 15px}
+
+ ul{border-bottom: 5px solid black;
+ border-top: 5px solid black;}
+
+main{width: 900px ;
+margin: 0 auto;
+}
+
+
+
+article {
+  background: #fff;
+  float: left;
+  width: 540px;
+  padding: 20px;
+  height: 300px;
+  border-right: 1px solid #aaa
+}
+
+article figure {
+  width: 200px;
+  border: 1px solid #aaa;
+  display: inline-block;
+}
+
+figure img,
+figure figcaption {
+  padding: 6px;
+  width: 96%
+}
+
+article div{width: 300px;
+  float: right;
+   padding-bottom: 0px;}
+
+article p {
+  width: 300px;
+  float: right;
+  margin-top: -63px;
+  line-height: 20px}
+
+
+
+main{height: 800px}
+
+aside{ background: #fff;
+height: 680px;
+color:#DB5D79}
+
+section ul li a{color:#DB5D79;
+}
+
+li{padding: 15px 0}
+
+aside ul{height: 500px;
+border: 1px  #aaa}
+
+
+aside ul li a{border-bottom: 1px solid #aaa;
+}
+
+article h3{color:#E3C675}
+
+
+
+
+
+
+footer {
+  color: #fff;
+  background-color: #aaa;
+  text-align: center;
+margin: 0 auto
+}
