@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+font-family: 'Lato';
+width: 980px;
+margin: 0 auto;
+margin-top: 20px;
+color:#6C8B96  }
+
+nav{padding-top: 20px;
+color: #6C8B96}
+
+ul{text-align: right}
+
+li{display: inline-block;
+text-align: left;
+margin-right: 30px}
+
+a{text-decoration: none;
+    color: #6C8B96
+}
+
+a:hover{color: black;
+font-weight: bold}
+
+
+.span-starw{
+
+float: left;
+text-transform: uppercase;
+letter-spacing: 10px;
+font-size: 14px;
+font-weight: normal;}
+
+.span-starw:after{content: '';
+clear:both;
+display: block}
+
+header{background-color: #F5FAFC;
+    height: 520px;}
+
+
+.wrap-ep-img{display: flex;
+margin-top: 80px;
+}
+
+
+.episode7{text-align: center;
+width: 45%;
+margin: 20px 40px;}
+
+.episode7 h3{text-align: center;
+text-transform: uppercase;
+letter-spacing: 10px;
+font-size: 14px;
+font-weight: normal;
+position: relative;
+z-index: 10}
+
+
+
+.image1 img{max-width: 115%;}    
+
+
+
+.image1{width: 35%;
+    margin: 20px}
+
+.span-article{width: 20px;
+float: left}
+.span-article:after{content: '';
+clear:both;
+display: block}
+
+.episode7 p{text-align: left}
+
+
+
+.episode7 h1{color: #4C8ADD;
+font-size: 40px;
+margin-bottom: 0}
+
+.episode7 ul{padding: 0;
+margin-top: 0}
+
+ .episode7 nav li a,
+ {color:#D4DFE3} 
+
+.man,
+.REY-FIRST,
+.FINN-FIRST
+{display: flex}
+
+.man{height: 400px;}
+
+
+
+ .main-first h3,
+ .rey-img .names
+  {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: normal; }
+
+
+ 
+ .FINN-FIRST{align-items: center}
+ .FINN-FIRST p{text-align: left;
+margin-left:30px}
+
+.REY-FIRST{align-items: center}
+.REY-FIRST p{text-align: right;
+margin-right:30px}
+
+
+.paragraphs{display: flex;
+justify-content: space-between}
+
+
+.paragraphs p{width: 46%}
+
+.main-first button{text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background: none;
+    border-color: #4C8ADD;
+    color: #B1CCF0;
+    border-radius: 5px;}
+
+
+
+.other-episodes{height: 306px;
+ }    
+.other-episodes h3{    text-align: center;
+text-transform: uppercase;
+letter-spacing: 10px;
+font-weight: normal;
+margin-top: 50px}
+
+.episodes-sect{display: flex;
+margin-top: 30px}
+
+.episodes-sect section{width: 25%;
+justify-content: center;
+padding: 38px}
+
+
+.episodes-sect .one,
+.episodes-sect .three{background-color: #E1EEF6;
+    text-align: center;
+}
+
+.episodes-sect .two,
+.episodes-sect .four{background-color:#C4DEED;
+    text-align: center;}
+
+
+.episodes-sect img{width: 65% }    
+
+
+.episodes-sect section h4{text-transform: uppercase;
+letter-spacing: 10px;
+font-size: 14px;
+font-weight: normal;}
+
+footer{    text-align: center;
+    padding: 24px;
+    background: black;}
+
+
+

@@ -1,0 +1,41 @@
+ @media all and (max-width: 1024px){
+
+body{width: 100%}
+
+.blog img{max-width: 400px;
+    height: 259px;}
+
+.container{flex-wrap: wrap;}   
+
+.images img{width: 185px;}
+
+.info{text-align: center;
+float: none;
+margin: 0;
+width: 100%}
+
+.contact-form input{width: 100%;}
+
+ }
+
+@media all and (max-width: 480px){    
+
+header,
+main{width: 100%;}
+header{min-height: 300px;
+}  
+
+h1{font-size: 25px;
+    padding-top: 20px;
+    padding-left: 30px;}
+
+
+.container{display: block}   
+
+.blog img{width: 80%}
+
+.blog article{    max-width: 385px;
+    padding: 10px;
+    text-align: center;}
+
+}
